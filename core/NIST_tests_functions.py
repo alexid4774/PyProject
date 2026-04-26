@@ -4,6 +4,7 @@ from collections import Counter
 from math import erfc, exp, fabs, floor, gamma, lgamma, log, pi, sqrt, cos, sin
 from typing import Iterable, Sequence
 from scipy.stats import norm
+import numpy as np
 
 input_types = str | Sequence[int] | Iterable[int]
 
