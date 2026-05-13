@@ -55,6 +55,7 @@ def _igamc(a: float, x: float) -> float:
     c = 1 / 1e-300
     d = 1 / b
     h = d
+    
     for i in range(1, max_iter + 1):
         an = -i * (i - a)
         b += 2
@@ -98,6 +99,7 @@ def _rank_binary_matrix(matrix: list[list[int]]) -> int:
         rank += 1
         if rank == row_count:
             break
+
     return rank
 
 
